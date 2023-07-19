@@ -190,3 +190,48 @@ banner .img-div {
 .card-item img {
   height: 400px;
 }
+
+/* play-instantly-description section styles */
+.play-instantly-container {
+  display: flex;
+  padding: 0 150px;
+  margin-top: 150px;
+  justify-content: space-between;
+  align-items: center;
+}
+.play-instantly-description {
+  text-align: center;
+}
+.play-instantly-description h3 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: right;
+  width: 40%;
+}
+.play-instantly-description p {
+  width: 40%;
+  text-align-last: right;
+  align-self: start;
+  margin-top: 20px;
+}
+.play-instantly-img {
+  position: relative;
+}
+.play-instantly-img .img-1 {
+  width: 634px;
+  height: 650px;
+  border-radius: 8px;
+  background: url(<path-to-image>),
+    lightgray -7.583px 0px / 102.389% 100% no-repeat;
+}
+.play-instantly-img .img-2 {
+  position: absolute;
+  left: -130px;
+  bottom: -70px;
+  width: auto;
+  height: 300px;
+  border-radius: 8px;
+  background: url(<path-to-image>),
+    lightgray 0px -0.304px / 100% 117.229% no-repeat;
+}
