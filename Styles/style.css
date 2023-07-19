@@ -24,6 +24,25 @@ p {
 .pink {
   color: #ff42a5;
 }
+#hide {
+  display: none;
+}
+
+.btn-primary {
+  display: inline-flex;
+  padding: 21px 40px;
+  align-items: flex-start;
+  gap: 20px;
+  border: none;
+  color: white;
+  background-color: #f948b2;
+  border-radius: 48px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.blue {
+  background: #4ec5f7;
+}
 body {
   /* max-width: 1920px; */
   /* margin: 0 auto; */
@@ -98,25 +117,25 @@ nav {
 }
 
 /* banner section styles */
-banner {
+.banner-div {
   padding: 0 150px;
-
-  /* display: flex;
- 
-  justify-content: space-evenly; */
-  display: grid;
+  /* height: 40vh; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* display: grid;
   grid-template: 1fr / 1fr 1fr;
   align-content: center;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; */
   /* height: 30vh; */
   background-image: url("../images/Group\ 14.png");
   background-position: left top;
   background-repeat: no-repeat;
-  background-size: cover;
+
+  /* background-size: cover; */
 }
 .description-parent {
-  grid-area: 1 /1 /-1 /2;
 }
 .banner-description {
   /* width: 50%; */
@@ -150,13 +169,11 @@ banner {
 }
 .btn-div {
 }
-banner .img-div {
-  grid-area: 1 /2 /-1 /-1;
+.banner-div .img-div {
+  /* grid-area: 1 /2 /-1 /-1; */
   text-align: right;
   /* width: 100%; */
-}
-.hide {
-  display: none;
+  max-width: 100%;
 }
 
 /* online  game section */
@@ -190,10 +207,43 @@ banner .img-div {
 .card-item p {
   margin-top: 20px;
 }
-.card-item img {
+.card-item-c img {
   height: 400px;
 }
-
+.card-item-c {
+  position: relative;
+}
+.card-item-c .overlay {
+  height: 100%;
+  width: 100%;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 20px;
+  display: none;
+}
+/* .overlay p {
+  text-align: center;
+} */
+.overlay .icon {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  margin-top: 180px;
+  font-size: 50px;
+  color: white;
+}
+.icon p {
+  color: white;
+}
+.card-item-c:hover .overlay {
+  display: block;
+}
 /* play-instantly-description section styles */
 .play-instantly-container {
   display: flex;
@@ -258,6 +308,7 @@ banner .img-div {
   font-size: 15px;
   padding: 5px 20px;
   border-radius: 40px;
+  border: 1px solid transparent;
 }
 .btn-item:hover {
   border: 1px solid #f948b2;
