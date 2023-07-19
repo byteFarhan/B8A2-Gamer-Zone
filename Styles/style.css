@@ -198,6 +198,7 @@ banner .img-div {
   margin-top: 150px;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 200px;
 }
 .play-instantly-description {
   text-align: center;
@@ -234,4 +235,30 @@ banner .img-div {
   border-radius: 8px;
   background: url(<path-to-image>),
     lightgray 0px -0.304px / 100% 117.229% no-repeat;
+}
+
+/* last section styles */
+.last-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  width: 80%;
+  gap: 40px;
+}
+
+.btn-item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 15px;
+  padding: 5px 20px;
+  border-radius: 40px;
+}
+.btn-item:hover {
+  border: 1px solid #f948b2;
+}
+.btn-item:hover p {
+  color: #f948b2;
 }
