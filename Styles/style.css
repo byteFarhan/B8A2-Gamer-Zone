@@ -7,6 +7,9 @@ a {
   text-decoration: none;
   color: #3c354f;
 }
+li {
+  list-style: none;
+}
 p {
   color: #534c64;
   font-size: 18px;
@@ -261,4 +264,55 @@ banner .img-div {
 }
 .btn-item:hover p {
   color: #f948b2;
+}
+/* footer section styles */
+footer {
+  height: 40vh;
+  background: #0b0223;
+  margin-top: 150px;
+  color: white;
+}
+.foot-logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+
+  padding-top: 50px;
+}
+.foot-logo img {
+  width: 80px;
+  height: 40px;
+}
+.foot-container {
+  width: 30vw;
+  margin: 0 auto;
+  text-align: center;
+}
+footer ul a {
+  color: white;
+}
+.contact ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+}
+.social-icon ul {
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+}
+.polici ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+}
+.contact ul a:hover li {
+  text-decoration: underline;
+}
+.polici ul li {
+  color: #534c64;
+}
+.polici ul a:hover li {
+  text-decoration: underline;
 }

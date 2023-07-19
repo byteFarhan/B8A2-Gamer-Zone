@@ -141,6 +141,71 @@
   .btn-item p {
     font-size: 10px;
   }
+
+  /* footer section styles */
+  footer {
+    height: auto;
+    background: #0b0223;
+    margin-top: 30px;
+    color: white;
+    padding: 20px 0;
+  }
+  .foot-logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  .foot-logo h2 {
+    font-size: 20px;
+  }
+  .foot-logo img {
+    width: 30px;
+    height: auto;
+  }
+  .foot-container {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+  footer ul a {
+    color: white;
+  }
+  .contact ul {
+    display: flex;
+    justify-content: center;
+    margin: 15px 5px;
+    font-size: 8px;
+  }
+  .contact ul a {
+    margin-right: 10px;
+  }
+  .social-icon ul {
+    justify-content: space-between;
+    width: 20%;
+    flex-wrap: wrap;
+    font-size: 14px;
+    margin: 0 auto;
+  }
+  .social-icon ul a {
+    margin-right: 10px;
+    margin-bottom: 15px;
+  }
+  .polici ul {
+    font-size: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 15px auto;
+  }
+  .polici ul a {
+    margin-bottom: 10px;
+  }
+  .copyright {
+    font-size: 10px;
+    margin-top: -15px;
+  }
 }
 @media screen and (min-width: 576px) and (max-width: 1160px) {
   header {
@@ -232,5 +297,70 @@
   .btn-item img {
     height: 40px;
     width: auto;
+  }
+
+  /* footer section styles */
+  footer {
+    height: auto;
+    background: #0b0223;
+    margin-top: 30px;
+    color: white;
+    padding: 20px 0;
+  }
+  .foot-logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  .foot-logo h2 {
+    font-size: 25px;
+  }
+  .foot-logo img {
+    width: 45px;
+    height: auto;
+  }
+  .foot-container {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+  footer ul a {
+    color: white;
+  }
+  .contact ul {
+    display: flex;
+    justify-content: center;
+    margin: 25px 5px;
+    font-size: 15px;
+  }
+  .contact ul a {
+    margin-right: 10px;
+  }
+  .social-icon ul {
+    justify-content: space-between;
+    width: 20%;
+    flex-wrap: wrap;
+    font-size: 14px;
+    margin: 0 auto;
+  }
+  .social-icon ul a {
+    margin-right: 10px;
+    margin-bottom: 15px;
+  }
+  .polici ul {
+    font-size: 13px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 15px auto;
+  }
+  .polici ul a {
+    margin-bottom: 10px;
+  }
+  .copyright {
+    font-size: 13px;
+    margin-top: -15px;
   }
 }
