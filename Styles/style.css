@@ -267,7 +267,8 @@ banner .img-div {
 }
 /* footer section styles */
 footer {
-  height: 40vh;
+  /* height: 40vh; */
+  padding: 40px 10px;
   background: #0b0223;
   margin-top: 150px;
   color: white;
