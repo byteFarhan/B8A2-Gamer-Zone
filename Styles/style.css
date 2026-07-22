@@ -309,6 +309,7 @@ nav {
   padding: 5px 20px;
   border-radius: 40px;
   border: 1px solid transparent;
+  transition: border 0.5s, color 0.5s;
 }
 .btn-item:hover {
   border: 1px solid #f948b2;
